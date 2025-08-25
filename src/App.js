@@ -1,11 +1,11 @@
 import React from "react";
-import EmailLogin from "./components/EmailLogin"; // 👈 Path ini harus benar
+import LoginForm from "./components/loginform";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <EmailLogin />
+      <LoginForm />
     </div>
   );
 }
